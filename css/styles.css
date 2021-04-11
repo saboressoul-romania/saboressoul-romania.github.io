@@ -10173,6 +10173,9 @@ body {
   #mainNav.navbar-shrink .navbar-brand {
     color: #000000;
   }
+  #mainNav.navbar-shrink .navbar-brand:hover {
+      color: #64a19d;
+    }
   #mainNav.navbar-shrink .nav-link {
     color: #000000;
     padding: 1.5rem 1.5rem 1.25rem;
@@ -10189,6 +10192,10 @@ body {
     outline: none;
     border-bottom: 0.25rem solid #64a19d;
   }
+}
+
+#catalog {
+    position:relative;
 }
 
 .btn {
@@ -10258,7 +10265,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;

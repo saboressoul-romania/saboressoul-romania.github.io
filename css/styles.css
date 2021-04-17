@@ -7482,6 +7482,13 @@ button.bg-black:focus {
   z-index: 1030;
 }
 
+.fixed-top-stay {
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
 .fixed-bottom {
   position: fixed;
   right: 0;
@@ -10114,7 +10121,7 @@ h3 {
   }
 }
 body {
-  letter-spacing: 0.0625em;
+  letter-spacing: 0.0125rem;
 }
 
 #mainNav {
@@ -10131,7 +10138,7 @@ body {
   outline: none;
 }
 #mainNav .navbar-brand {
-  color: #000000;
+  color: #212529;
   font-weight: 700;
   padding: 0.9rem 0;
 }
@@ -10154,15 +10161,15 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: #212529;
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: #212529;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: #64a19d;
   }
   #mainNav .nav-link:active {
     color: #fff;

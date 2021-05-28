@@ -9,117 +9,183 @@
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Tangerine|Adamina">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300&display=swap" rel="stylesheet">
     </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Pagina Principala</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Catalog</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#information">Informatii</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
-                    </ul>
+
+    <body>
+        <!-- example 2 - using auto margins -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Catalog
+                        </a>
+                        <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
+                        <div class="dropdown-menu dropdown-multicol animate slideIn" aria-labelledby="dropdownMenuButton">
+                            <div class="dropdown-row">
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Adalya Tobacco</span></a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Adalya black</span></a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Afzal</span></a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Dumanji</span></a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Hookain</span></a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Overdooz</span></a>
+                            </div>
+                            <div class="dropdown-row">
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Alchemist</span></a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Al fakher</span></a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Aloha</span></a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Privilege</span></a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Revoshi</span></a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Smyrna</span></a>
+                            </div>
+                            <div class="dropdown-row">
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Apocalypse</span></a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Blue Horse</span></a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Dozaj</span></a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Serbetli</span></a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Taboo</span></a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Smyrna</span></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Informatii
+                        </a>
+                        <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
+                        <div class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Ce este Narghileaua?</span></a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-greater-than"></i><span>Ce este melasa?</span></a>
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Despre Noi
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mx-auto order-0">
+<!--                <a class="navbar-brand mx-auto" href="#"><img src="css/brand.svg"/></img>SABORES SOUL</a>-->
+                <div>
+                    <a class="navbar-brand mx-auto" href="#"><i class="fas fa-bong"></i><span class="brand">SABORES SOUL</span></a>
+<!--                    <a>ROMANIA</a>-->
                 </div>
+
+<!--                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">-->
+<!--                    <span class="navbar-toggler-icon"></span>-->
+<!--                </button>-->
+            </div>
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2 social">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item twitter-icon">
+                        <a href="#!"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item facebook-icon">
+                        <a href="https://www.facebook.com/groups/SaboresSoulRO"><i class="fab fa-facebook-f "></i></a>
+                    </li>
+                    <li class="nav-item instagram-icon">
+                        <a href="https://www.instagram.com/leaderhookah/"><i class="fab fa-instagram "></i></a>
+                    </li>
+                </ul>
             </div>
         </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container d-flex h-100 align-items-center">
-                <div class="mx-auto text-center">
-                    <h1 class="mx-auto my-0 text-uppercase">Sabores Soul</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Romania</h2>
-                    <a class="btn btn-primary js-scroll-trigger" href="catalog.html">Catalog</a>
-                </div>
-            </div>
-        </header>
-        <!-- About-->
-        <section class="about-section text-center" id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">Despre Noi</h2>
-                        <p class="text-white-50">
-                            Atat de multe branduri si arome din care poti alege: fruity, minty, rich si creamy, si chiar arome spicy. Nu esti decis ce aroma sa incerci, stai linistit noi te putem ajuta.
-                        </p>
-                        <p class="text-white-50">
-                            Sabores Soul doreste sa va informeze, sfatuiasca si sa va ajute in alegerea aromei sau aromelor potrivite.
-                            Sabores Soul este un grup de pasionati de Narghilea ce doreste sa impartaseasca experienta acumulata in decursul anilor, cu toata lumea dornica de acest hobby.
-                            Echipa Sabores Soul va poate ajuta in alegerea aromei potrivite, pentru o sesiunea intensa si placuta. Cat si recomandari pentru Shishe, accesorii, carbuni si tot ce tine de aceasta pasiune.
-                        </p>
-                        <p class="text-white-50">
-                            Aceasta pagina este in continua dezvoltare, va multumim pentru rabdare cat si pentru accesarea paginei noastre .
-                        </p>
-                    </div>
-                </div>
-<!--                <img class="img-fluid" src="assets/img/about.jpg" alt="" />-->
-            </div>
-        </section>
-        <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
-            <div class="container">
-                <!-- Featured Project Row-->
-                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg.jpeg" alt="" /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Catalog</h4>
-                            <p class="text-black-50 mb-0">Catalogul nostru reprezinta aromele ce se pot gasi pe piata romaneasca, cat si recenzii si recomandari  din partea membrilor comunitatii. </p>
-                            <p><a href="catalog.html">Click aici pentru a vizualiza catalogul</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- Information-->
-        <section class="projects-section bg-light" id="information">
+        <div class="main-page">
+<!--            <div class="line">-->
+<!--            </div>-->
             <div class="container">
-                <!-- Project One Row-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="" /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Narghileaua</h4>
-                                    <p class="mb-0 text-white-50"><a href="narghilea.html">Click aici pentru a afla mai mai multe informatii ...</a></p>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
-                                </div>
+                <div class="body-content">
+                    <h1 class="">Atat de multe branduri si arome </h1>
+                    <h1 class="">din care poti alege</h1>
+<!--                    <h1 class=""> Gandestete la o aroma, noi o avem </h1>-->
+                    <div class="subtitle">
+                        <div> SABORES SOUL doreste sa va informeze, sfatuiasca si </div>
+                        <div> sa va ajute in alegerea aromei sau aromelor potrivite.</div>
+                    </div>
+                    <button class="btn mx-auto subtitle-button">CONTACTEAZA-NE</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container recomendations">
+            <div class="separator">
+                <div class="line"></div>
+                <h2>Top Recomandari</h2>
+                <div class="line"></div>
+            </div>
+            <div class="para-line">
+                <span>Sabores Soul va prezinta top 5 arome, perfecte pentru vara si vremea calduroasa de afara.</span>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-md-5 col-sm-11">
+                    <div class="serviceBox">
+                        <h4 class="title">Pentru doritori de fresh, mentol si dulce</h4>
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <span><img src="css/rozeta2.svg"/></img></span>
                             </div>
+                            <span class="description">1. Nameless Black Nana : Strugure dulce cu menta</span>
+                            <span class="description">2. Al waha Big Boy :  Pepene rosu cu menta</span>
+                            <span class="description">3. Adalya Love 66 : Mix de fructe dulci mentolate </span>
+                            <span class="description">4. Darkside Hola : Cola cu lime </span>
+                            <span class="description">5. Al Waha pananavan : Vanilie cu banane </span>
                         </div>
                     </div>
                 </div>
-                <!-- Project Two Row-->
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="" /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Melasa</h4>
-                                    <p class="mb-0 text-white-50"><a href="melasa.html">Click aici pentru a afla mai mai multe informatii ...</a></p>
-                                    <hr class="d-none d-lg-block mb-0 mr-0" />
-                                </div>
+                <div class="col-md-5 col-sm-11">
+                    <div class="serviceBox">
+                        <h4 class="title">Daca va place mixologia, incercati urmatoarele</h4>
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <span><img src="css/rozeta3.svg"/></img></span>
                             </div>
+                            <span class="description">1. Al waha Pananavan + Overdooz 24karatine</span>
+                            <span class="description">2. Hookain White cake + Revoshi Ola zapata</span>
+                            <span class="description">3. BlueHorse The coldest green + Overdooz Psick out</span>
+                            <span class="description">4. Nameless Pablo + Bluehorse The coldest green </span>
+                            <span class="description">5. Al waha libella swing + Taboo blizzardina </span>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Signup-->
-        <section class="signup-section" id="signup">
+
+        </div>
+
+        <div class="third-page">
+            <div class="container mission">
+                <div class="separator">
+                    <div class="line"></div>
+                    <h2>Misiunea noastra</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="row justify-content-around">
+                    <div class="col-md-5 col-sm-11 align-center padding-left">
+                        <h2>Cel mai bun loc pentru a te informa despre arome shisha</h2>
+                        <p> Xquisite Smoke sell a wide range of high-quality Shisha smoking products from the best Shisha brands.
+                            Shop online for premium-grade Shishas, flavours, liquids and coals for the ultimate exquisite experience.
+                        </p>
+                    </div>
+                    <div class="col-md-5 col-sm-11 align-center padding-right">
+                        <div class="mission-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="signup-section bg-footer">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
@@ -133,54 +199,22 @@
                 </div>
             </div>
         </section>
-        <!-- Contact-->
-        <section class="contact-section bg-black">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Adresa</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">Spania</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50"><a href="#!">saboressoul.romania@gmail.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Telefon</h4>
-                                <hr class="my-4" />
-<!--                                    <img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="" />-->
-                                <div class="small text-black-50">+34 642 15 83 23</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="https://www.facebook.com/groups/SaboresSoulRO"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="https://www.instagram.com/leaderhookah/"><i class="fab fa-instagram"></i></a>
-                </div>
+
+        <section class="contact-section bg-footer">
+            <div class="social d-flex justify-content-center">
+                <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                <a class="mx-2" href="https://www.facebook.com/groups/SaboresSoulRO"><i class="fab fa-facebook-f"></i></a>
+                <a class="mx-2" href="https://www.instagram.com/leaderhookah/"><i class="fab fa-instagram"></i></a>
             </div>
         </section>
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Sabores Soul Romania 2020</div></footer>
+        <footer class="footer bg-footer small text-center text-white-50"><div class="container">Copyright © Sabores Soul Romania 2021</div></footer>
+
+
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->

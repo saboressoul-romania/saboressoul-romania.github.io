@@ -128,7 +128,7 @@ div.hookah {
 }
 
 .menu-narghilea {
-    margin-top: 4.5rem;
+    margin-top: 5rem;
 }
 .menu-narghilea h5 {
     text-align: end;
@@ -139,6 +139,16 @@ div.body-content {
     padding-top: 1.9rem;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 900;
+}
+
+div.rezervari {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    text-align: right;
+}
+div.rezervari-telefon {
+    font-size: 1.2rem;
+    text-align: right;
 }
 
 div.bottom {

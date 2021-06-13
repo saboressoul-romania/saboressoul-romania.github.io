@@ -203,10 +203,10 @@ div.bottom span.follow {
     *************************/
 
 .second-page {
-    background-image: url("menu-crop.jpg");
-    background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+    background-image: url("menu.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 

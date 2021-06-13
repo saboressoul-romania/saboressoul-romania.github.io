@@ -242,14 +242,22 @@ span.arome-clasice {
     text-shadow: 1px 4px 3px rgba(0,0,0,0.2);
 }
 
+span.arome-clasice.pad {
+    margin-left: 70px;
+}
+
 .second-page .container div.arome {
-    margin-top: 1.5rem;
+    margin-top: 1.1rem;
     text-align: center;
+}
+
+div.arome img {
+    margin-bottom: 20px;
+    height: 35px;
 }
 
 div.col.aroma-clasica {
     text-align: center;
-    margin-top: 10px;
     font-family: 'Josefin Sans', sans-serif;
 }
 

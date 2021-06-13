@@ -106,6 +106,7 @@ body, html {
 }
 
 div.leader span{
+    color: black;
     font-size: 3.2rem;
     font-family: 'STAR7 Regular';
     display: inline-block;
@@ -113,6 +114,7 @@ div.leader span{
 }
 
 div.hookah span{
+    color: black;
     font-size: 3.2rem;
     font-family: 'STAR7 Regular';
     display: inline-block;
@@ -212,7 +214,6 @@ div.bottom span.follow {
   display:flex;
   align-items: center;
   padding-top: 2rem;
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 .separator .line{
@@ -229,7 +230,7 @@ div.bottom span.follow {
 
 span.arome-clasice {
     font-family: 'Mostin';
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: 4px;
     display: inline-block;
     border-width: 2px;
@@ -259,7 +260,7 @@ span.aroma-1 {
 }
 
 div.aroma-descriere {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: bolder;
 }
 
@@ -269,7 +270,7 @@ div.aroma-descriere {
 
 span.arome-speciale {
     font-family: 'Mostin';
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: 4px;
     display: inline-block;
     border-width: 2px;
@@ -288,7 +289,7 @@ span.arome-speciale {
 
 div.aroma-speciala-nume {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bolder;
     margin-top: 10px;
 }
